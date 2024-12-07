@@ -1,5 +1,5 @@
 db:
-  name: wp-database
+  name: wordpress-db
   labels:
     id: c0916072
     app: wp-database-app
