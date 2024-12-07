@@ -24,6 +24,7 @@ spec:
                 optional: false
             - secretRef:
                 name: {{ .Values.db.name }}-secret
+                key: MARIADB_ROOT_PASSWORD
                 optional: false
           ports:
             - containerPort: {{ .Values.db.service.targetPort }}
